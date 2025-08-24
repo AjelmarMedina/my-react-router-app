@@ -78,6 +78,7 @@ export default function SidebarLayout({
         className={
           navigation.state === "loading" ? "loading" : ""
         }
+        id="detail"
       >
         <Outlet />
       </div>

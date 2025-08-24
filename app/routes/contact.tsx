@@ -49,7 +49,7 @@ export default function Contact({
         {contact.notes ? <p>{contact.notes}</p> : null}
 
         <div>
-          <Form action="edit">
+          <Form key={contact.id} action="edit">
             <button type="submit">Edit</button>
           </Form>
 
